@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="360" viewBox="0 0 320 360" role="img" aria-label="Portrait placeholder">
+  <path fill="#406b73" d="M52 328v-56h24v-24h40v-24h88v24h40v24h24v56z"/>
+  <path fill="#7cb7b0" d="M100 64h24V48h72v16h24v24h16v88h-16v32h-24v24h-72v-24h-24v-32H84V88h16z"/>
+  <path fill="#a3d7c9" d="M124 72h72v16h24v80h-16v32h-24v16h-40v-16h-24v-32h-16V88h24z"/>
+  <path fill="#528e8c" d="M116 104h88v16h-88zM132 144h16v16h-16zM176 144h16v16h-16zM144 184h32v8h-32z"/>
+  <path fill="#68a39c" d="M116 248h24v24h40v-24h24v32h-16v16h-56v-16h-16z"/>
+</svg>

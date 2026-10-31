@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "NTR";
+  src: url("/fonts/NTR-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+html { box-sizing: border-box; scroll-behavior: smooth; }
+*, *::before, *::after { box-sizing: inherit; }
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "NTR", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #0a192f;
+  color: #ccd6f6;
+}
+button, input, textarea { font: inherit; }
+img { max-width: 100%; }
+code { font-family: monospace; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
