@@ -1,9 +1,55 @@
-.navbar { background: rgba(10, 25, 47, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--lightest-navy); font-family: "NTR", sans-serif; padding: 10px 0; }
-.navbar .container { max-width: 1200px; gap: 20px; }
-.navbar .navbar-brand { color: var(--lightest-slate); font-size: 23px; font-weight: 700; }
-.navbar .navbar-brand:hover, .navbar .nav-link:hover, .navbar .nav-link:focus { color: var(--green-bright); }
-.navbar .nav-link { color: var(--light-slate); font-size: 18px; }
-.navbar .social-links { gap: 6px; }
-.navbar .navbar-toggler { border-color: var(--lightest-navy); padding: 7px 10px; }
-.navbar .navbar-toggler:focus-visible { box-shadow: 0 0 0 2px var(--green-bright); }
-@media (max-width: 991px) { .navbar .container { gap: 0; padding-right: 24px; padding-left: 24px; } .navbar-collapse { padding-top: 16px; padding-bottom: 12px; max-height: calc(100dvh - 80px); overflow-y: auto; } .navbar .nav-link { padding: 8px 0; } .navbar .social-links { flex-direction: row; gap: 20px; } }
+.navbar {
+  background: rgba(10, 25, 47, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--lightest-navy);
+  font-family: 'NTR', sans-serif;
+  padding: 10px 0;
+}
+.navbar .container {
+  max-width: 1200px;
+  gap: 20px;
+}
+.navbar .navbar-brand {
+  color: var(--lightest-slate);
+  font-size: 23px;
+  font-weight: 700;
+}
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--green-bright);
+}
+.navbar .nav-link {
+  color: var(--light-slate);
+  font-size: 18px;
+}
+.navbar .social-links {
+  gap: 6px;
+}
+.navbar .navbar-toggler {
+  border-color: var(--lightest-navy);
+  padding: 7px 10px;
+}
+.navbar .navbar-toggler:focus-visible {
+  box-shadow: 0 0 0 2px var(--green-bright);
+}
+@media (max-width: 991px) {
+  .navbar .container {
+    gap: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .navbar-collapse {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    max-height: calc(100dvh - 80px);
+    overflow-y: auto;
+  }
+  .navbar .nav-link {
+    padding: 8px 0;
+  }
+  .navbar .social-links {
+    flex-direction: row;
+    gap: 20px;
+  }
+}

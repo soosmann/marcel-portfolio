@@ -1,12 +1,68 @@
-.experience-content { display: flex; gap: 32px; min-height: 270px; }
-.experience-tabs { flex-shrink: 0; width: 205px; border-right: 1px solid var(--lightest-navy); }
-.experience-tabs .MuiTab-root { max-width: 100%; }
-.experience-tabs .MuiTab-root.Mui-focusVisible { outline: 2px solid var(--green-bright); outline-offset: -3px; }
-.experience-panels { min-width: 0; flex: 1; padding: 8px 0; }
-.joblist-job-title { font-size: 28px; font-weight: 700; line-height: 1.3; margin: 0 0 8px; }
-.joblist-job-company { color: var(--green-bright); }
-.joblist-duration { font-size: 17px; color: var(--slate); margin-bottom: 24px; }
-.job-description { list-style: none; margin: 0; padding: 0; color: var(--slate); font-size: 20px; line-height: 1.5; }
-.job-description li { position: relative; padding: 0 0 16px 26px; }
-.job-description li::before { content: "▹"; color: var(--green-bright); position: absolute; left: 0; }
-@media (max-width: 700px) { .experience-content { flex-direction: column; gap: 20px; } .experience-tabs { width: 100%; border-right: 0; border-bottom: 1px solid var(--lightest-navy); } .joblist-job-title { font-size: 25px; } }
+.experience-content {
+  display: flex;
+  gap: 32px;
+  min-height: 270px;
+}
+.experience-tabs {
+  flex-shrink: 0;
+  width: 205px;
+  border-right: 1px solid var(--lightest-navy);
+}
+.experience-tabs .MuiTab-root {
+  max-width: 100%;
+}
+.experience-tabs .MuiTab-root.Mui-focusVisible {
+  outline: 2px solid var(--green-bright);
+  outline-offset: -3px;
+}
+.experience-panels {
+  min-width: 0;
+  flex: 1;
+  padding: 8px 0;
+}
+.joblist-job-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0 0 8px;
+}
+.joblist-job-company {
+  color: var(--green-bright);
+}
+.joblist-duration {
+  font-size: 17px;
+  color: var(--slate);
+  margin-bottom: 24px;
+}
+.job-description {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--slate);
+  font-size: 20px;
+  line-height: 1.5;
+}
+.job-description li {
+  position: relative;
+  padding: 0 0 16px 26px;
+}
+.job-description li::before {
+  content: '▹';
+  color: var(--green-bright);
+  position: absolute;
+  left: 0;
+}
+@media (max-width: 700px) {
+  .experience-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .experience-tabs {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid var(--lightest-navy);
+  }
+  .joblist-job-title {
+    font-size: 25px;
+  }
+}
